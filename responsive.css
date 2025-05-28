@@ -1,0 +1,1119 @@
+@media screen and (max-width:799px) {
+    .left {
+        position: absolute;
+        left: -150%;
+        transition: all 0.3s ease;
+        width: 79vw;
+        z-index: 1;
+        background: black;
+        transition: left 0.3s ease-in-out;
+    }
+
+    .close-hidden{
+        transition: left 0.3s ease-in-out !important;
+    }
+
+
+
+    .home ul li {
+        width: 30px;
+        gap: 12px;
+        font-size: 12px;
+
+    }
+
+
+
+    .logo {
+        width: 55px;
+    }
+
+    .playlist-img-span {
+        gap: 8px;
+        font-size: 12px;
+    }
+
+    .library-head img {
+        width: 16px;
+    }
+
+    .cross-img-span img {
+        width: 13px;
+    }
+
+    .cross-img-span {
+        width: 20px;
+    }
+
+    .library-content {
+        overflow: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+
+    .library-content::-webkit-scrollbar {
+        display: none;
+    }
+
+    .library-content::-webkit-scrollbar-corner {
+        background: #121212;
+    }
+
+    .box {
+        row-gap: 12px;
+    }
+
+    .box h4 {
+        font-size: 12px;
+
+    }
+
+    .box p {
+        font-size: 10px;
+    }
+
+    .box button {
+        padding: 6px 8px;
+        font-weight: 800;
+        font-size: 10px;
+    }
+
+    .left-size-footer {
+        width: 100%;
+        left: 0px;
+        bottom: 17px;
+        border-radius: 0px;
+        padding: 25px 12px;
+    }
+
+    .first a {
+        font-size: 8px;
+        padding: 0px 2px;
+    }
+
+    .second a {
+        font-size: 8px;
+        padding: 0px 2px;
+    }
+
+    .third a {
+        font-size: 10px;
+        padding: 0px 2px;
+    }
+
+    .left-footer-button {
+        margin: 0px;
+    }
+
+    .left-footer-button button img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .left-footer-button button {
+        gap: 5px;
+        font-size: 10px;
+        padding: 3px 6px;
+    }
+
+
+    .log-button {
+        padding: 8px 12px;
+        font-size: 10px;
+        font-weight: 900;
+    }
+
+    .sign-button {
+        font-size: 12px;
+    }
+
+    .right {
+        width: 98vw;
+        margin: auto;
+
+    }
+
+    .nav-svg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 14px;
+    }
+
+    .nav-svg svg {
+        width: 26px;
+        height: 26px;
+    }
+
+    .hamburger {
+        display: inline;
+    }
+
+    .main {
+        overflow: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .main::-webkit-scrollbar {
+        display: none;
+    }
+
+    .main::-webkit-scrollbar-corner {
+        background: #121212;
+    }
+
+
+
+    .main-name {
+        padding: 10px 6px;
+    }
+
+    .main-name h1 {
+        font-size: 18px;
+        margin-left: 16px;
+    }
+
+    .main-name button {
+        font-size: 12px;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card-container2 {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .footer-text p {
+        font-size: 9px;
+    }
+
+    .footer-text h4 {
+        font-size: 12px;
+    }
+
+    .main-footer {
+        width: 97%;
+        bottom: 2px;
+        left: 5px;
+    }
+
+    .footer-button button {
+        padding: 0px 20px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    .main-sec-footer {
+        margin-top: 18px;
+        font-size: 8px;
+        padding: 0px;
+        padding-bottom: 12px;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    .fifthPlace img {
+        width: 8px;
+    }
+
+    .fifthPlace {
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    .fifthPlace span {
+        padding: 5px;
+    }
+
+    footer p {
+        padding: 20px 0px 25px 13px;
+        font-size: 10px;
+    }
+
+    .main-name button {
+        padding-right: 11px;
+    }
+
+    .card {
+        height: 265px;
+    }
+
+    .card2 {
+        height: 220px;
+    }
+
+    .card8 {
+        height: 220px;
+    }
+
+    .card3 {
+        height: 230px;
+    }
+
+    .card9 {
+        height: 230px;
+    }
+
+    .card4 {
+        height: 250px;
+    }
+
+    .card10 {
+        height: 250px;
+    }
+
+    .card6 {
+        height: 222px;
+    }
+
+    .card12 {
+        height: 230px;
+    }
+
+    .playbar {
+        width: 98%;
+        height: 21%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .seekbar {
+        right: 8px;
+        bottom: 15px;
+    }
+
+    .song-details {
+        margin-bottom: 0px;
+        margin-left: 0px;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .song-button {
+        margin-bottom: 0px;
+        margin-left: 0px;
+        gap: 8px;
+    }
+
+    .song-button img {
+        width: 22px;
+    }
+
+    .song-time {
+        margin-bottom: 0px;
+        margin-right: 1px;
+        font-size: 10px;
+    }
+
+    .right-side-of-playbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .volume {
+        margin-bottom: 8px;
+        margin-right: 24px;
+        gap: 10px;
+    }
+
+    .volume img {
+        width: 20px;
+    }
+
+    .card {
+        width: 92%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card h2 {
+        margin: 4px 2px;
+        font-size: 17px;
+    }
+
+    .card p a {
+        font-size: 14px;
+    }
+
+    .card p {
+        margin: 0px 2px;
+    }
+
+    .play {
+        bottom: 40px;
+        right: 8px;
+    }
+
+    .card:hover .play {
+        bottom: 75px;
+        right: 8px;
+    }
+
+
+
+
+
+
+}
+
+
+@media (min-width:380px) and (max-width:500px) {
+    .card {
+        margin-bottom: 30px;
+        width: 70%;
+    }
+
+    .card h2 {
+        font-size: 15px;
+    }
+
+    .card p a {
+        font-size: 12px;
+    }
+
+    .play {
+        bottom: 18px;
+        right: 10px;
+    }
+
+    .card:hover .play {
+        bottom: 68px;
+        right: 10px;
+    }
+
+    .main-sec-footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+}
+
+@media (min-width:500px) and (max-width:799px) {
+    .card {
+        width: 50%;
+    }
+
+    .card h2 {
+        font-size: 14px;
+    }
+
+    .card:hover .play {
+        bottom: 88px;
+    }
+
+    .main-sec-footer a {
+        font-size: 10px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    .left-size-footer {
+        padding: 25px 20px;
+    }
+
+    .first a,
+    .second a,
+    .third a {
+        font-size: 10px;
+        padding: 0px 4px;
+    }
+
+    .left-footer-button button {
+        gap: 8px;
+        font-size: 12px;
+    }
+
+    .left-footer-button img {
+        width: 14px;
+        height: 14px;
+    }
+}
+
+
+@media (min-width:799px) and (max-width:1200px) {
+    .left {
+        position: absolute;
+        left: -150%;
+        transition: all 0.3s ease;
+        width: 79vw;
+        z-index: 1;
+        background: black;
+        transition: left 0.3s ease-in-out;
+    }
+
+    .close-hidden{
+        transition: left 0.3s ease-in-out !important;
+    }
+
+    .home ul li {
+        width: 30px;
+        gap: 12px;
+        font-size: 12px;
+
+    }
+
+    .nav-top {
+        width: 100%;
+    }
+
+    .logo {
+        width: 55px;
+    }
+
+    .playlist-img-span {
+        gap: 8px;
+        font-size: 12px;
+    }
+
+    .library-head img {
+        width: 16px;
+    }
+
+    .cross-img-span img {
+        width: 13px;
+    }
+
+    .cross-img-span {
+        width: 20px;
+    }
+
+    .library-content {
+        overflow: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+
+    .library-content::-webkit-scrollbar {
+        display: none;
+    }
+
+    .library-content::-webkit-scrollbar-corner {
+        background: #121212;
+    }
+
+    .box {
+        row-gap: 12px;
+    }
+
+    .box h4 {
+        font-size: 12px;
+
+    }
+
+    .box p {
+        font-size: 10px;
+    }
+
+    .box button {
+        padding: 6px 8px;
+        font-weight: 800;
+        font-size: 10px;
+    }
+
+    .left-size-footer {
+        width: 100%;
+        left: 0px;
+        bottom: 17px;
+        border-radius: 0px;
+        padding: 25px 16px;
+    }
+
+    .first a {
+        font-size: 10px;
+        padding: 0px 2px;
+    }
+
+    .second a {
+        font-size: 10px;
+        padding: 0px 2px;
+    }
+
+    .third a {
+        font-size: 10px;
+        padding: 0px 2px;
+    }
+
+    .left-footer-button {
+        margin: 0px;
+    }
+
+    .left-footer-button button img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .left-footer-button button {
+        gap: 5px;
+        font-size: 12px;
+        padding: 3px 6px;
+    }
+
+
+    .log-button {
+        padding: 8px 12px;
+        font-size: 10px;
+        font-weight: 900;
+    }
+
+    .sign-button {
+        font-size: 12px;
+    }
+
+    .right {
+        width: 98vw;
+        margin: auto;
+
+    }
+
+    .nav-svg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 14px;
+    }
+
+    .nav-svg svg {
+        width: 26px;
+        height: 26px;
+    }
+
+    .hamburger {
+        display: inline;
+    }
+
+    .main {
+        overflow: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .main::-webkit-scrollbar {
+        display: none;
+    }
+
+    .main::-webkit-scrollbar-corner {
+        background: #121212;
+    }
+
+
+
+    .main-name {
+        padding: 10px 6px;
+    }
+
+    .main-name h1 {
+        font-size: 18px;
+        margin-left: 16px;
+    }
+
+    .main-name button {
+        font-size: 12px;
+    }
+
+    .card-container {
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    .card-container2 {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .footer-text p {
+        font-size: 9px;
+    }
+
+    .footer-text h4 {
+        font-size: 12px;
+    }
+
+    .main-footer {
+        width: 97%;
+        bottom: 2px;
+        left: 5px;
+    }
+
+    .footer-button button {
+        padding: 0px 20px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    .main-sec-footer {
+        justify-content: space-between;
+        margin-top: 18px;
+        font-size: 10px;
+        padding: 0px;
+        padding-bottom: 12px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .fifthPlace img {
+        width: 12px;
+    }
+
+    .fifthPlace {
+        gap: 5px;
+        flex-direction: row;
+    }
+
+    .fifthPlace span {
+        padding: 5px;
+    }
+
+    footer p {
+        padding: 20px 0px 25px 13px;
+        font-size: 10px;
+    }
+
+    .main-name button {
+        padding-right: 11px;
+    }
+
+
+
+    .card h2 {
+        font-size: 12px;
+    }
+
+    .card p a {
+        font-size: 10px;
+    }
+
+    footer p {
+        padding: 20px 0px 25px 30px;
+    }
+
+    .left {
+        width: 35vw;
+        transition: left 0.3s ease-in-out;
+    }
+
+    .close-hidden{
+        transition: left 0.3s ease-in-out !important;
+    }
+
+    .playbar {
+        width: 98%;
+        height: 14%;
+    }
+
+    /* .song-button {
+        margin-left: 170px;
+    } */
+
+    .card-container2 {
+        flex-direction: row;
+        margin-top: 10px;
+        gap: 16px;
+    }
+
+    .play {
+        bottom: 80px;
+        right: 4px;
+    }
+
+    .card:hover .play {
+        bottom: 124px;
+    }
+
+}
+
+
+@media (min-width:200px) and (max-width:800px) {
+    .playbar {
+        justify-content: center;
+    }
+
+    .song-details {
+        margin: 0;
+    }
+
+    .song-button {
+        margin: 0;
+    }
+
+    .song-time {
+        margin: 0;
+    }
+
+
+}
+
+
+@media (min-width:550px) and (max-width:800px) {
+    footer p {
+        padding: 20px 0px 25px 28px;
+    }
+}
+
+
+@media (min-width:1291px) and (max-width:1400px) {
+    .left {
+        height: 88%;
+        transition: left 0.3s ease-in-out;
+    }
+
+    .close-hidden{
+        transition: left 0.3s ease-in-out !important;
+    }
+
+    .left-size-footer {
+        left: 6px;
+    }
+
+    .left-footer-button {
+        margin: 0px;
+    }
+
+    .left-footer-button button {
+        padding: 4px 6px;
+    }
+
+    .left-footer-button button img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .card {
+        width: 16%;
+    }
+
+    .library-content {
+        overflow: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+
+    .library-content::-webkit-scrollbar {
+        display: none;
+    }
+
+    .library-content::-webkit-scrollbar-corner {
+        background: #121212;
+    }
+
+    .main {
+        overflow: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .main::-webkit-scrollbar {
+        display: none;
+    }
+
+    .main::-webkit-scrollbar-corner {
+        background: #121212;
+    }
+
+    .card-container {
+        width: 96%;
+    }
+
+    .main-name {
+        padding: 10px 20px;
+    }
+
+    .main-sec-footer {
+        justify-content: space-between;
+        padding: 50px 30px;
+    }
+
+    .line {
+        width: 94%;
+    }
+
+    footer p {
+        padding: 30px 0px 80px 32px;
+    }
+
+    .play {
+        bottom: 105px;
+    }
+
+    .card:hover .play {
+        bottom: 130px;
+    }
+}
+
+
+@media (min-width:1201px) and (max-width:1291px) {
+    .left-size-footer {
+        bottom: 33px;
+        width: 96%;
+        left: 7px;
+        row-gap: 15px;
+        height: 32%;
+    }
+
+    .first a {
+        font-size: 10px;
+    }
+
+    .second a {
+        font-size: 10px;
+    }
+
+    .third a {
+        font-size: 10px;
+    }
+
+    .left-footer-button {
+        margin: 4px 4px;
+    }
+
+    .card {
+        width: 130px;
+    }
+
+    .home ul li {
+        width: 33px;
+        gap: 10px;
+        font-size: 14px;
+    }
+
+
+    .nav-top {
+        width: 100%;
+    }
+
+    .playlist-img-span {
+        gap: 10px;
+        font-size: 13px;
+    }
+
+    .library-head img {
+        width: 18px;
+    }
+
+    .cross-img-span img {
+        width: 16px;
+
+    }
+
+    .cross-img-span {
+        padding: 16px;
+    }
+
+    .box h4 {
+        font-size: 14px;
+    }
+
+    .box p {
+        font-size: 12px;
+    }
+
+    .box button {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    .left-footer-button button img {
+
+        width: 18px;
+        height: 18px;
+    }
+
+    .left-footer-button button {
+        gap: 5px;
+        padding: 5px 6px;
+    }
+
+    .nav-svg svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .sign-button {
+        font-size: 14px;
+    }
+
+    .log-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .main-name h1 {
+        font-size: 20px;
+    }
+
+    .main-name button {
+        font-size: 12px;
+    }
+
+    .card:hover .play {
+        bottom: 140px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width:1201px) and (max-width:1212px) {
+    .card p a {
+        font-size: 10px;
+    }
+
+    .card h2 {
+        font-size: 12px;
+    }
+
+    .card {
+        width: 125px;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    .first a {
+        font-size: 9px;
+    }
+
+    .second a {
+        font-size: 9px;
+    }
+
+    .third a {
+        font-size: 9px;
+    }
+
+    
+}
+
+
+@media (min-width:1401px) and (max-width:1500px) {
+    .left-size-footer {
+        bottom: 25px;
+    }
+
+    .library {
+        height: 50%;
+    }
+
+    .left-footer-button {
+        margin: 0px;
+    }
+}
+
+
+@media (min-width:500px) and (max-width:798px) {
+    .card-container {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .card-container2 {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .card {
+        width: 30%;
+    }
+
+    .main-sec-footer {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .main-sec-footer a {
+        font-size: 12px;
+    }
+
+    .fifthPlace img {
+        width: 12px;
+    }
+}
+
+
+@media (max-width:1200px) {
+    .nav-top {
+        width: 100% !important; 
+    }
+
+    
+}
+
+
+@media (min-width:1200px){
+    .close-hidden{
+        display: none !important;
+        transition: left 0.3s ease-in-out !important;
+    }
+}
+
+@media (min-width:540px) and (max-width:798px){
+    .left{
+        width:60vw;
+    }
+}
+
+
+@media (min-width:270px) and (max-width:379px){
+    .card-container{
+        width:70%;
+    }
+    .card-container2{
+        width:70%;
+    }
+
+    .card h2{
+        font-size: 14px;
+    }
+
+    .card p a{
+        font-size: 12px;
+    }
+
+    .main-sec-footer{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+
+@media (min-width:380px) and (max-width:550px){
+    .play{
+        bottom:40px;
+        right: 14px;
+    }
+
+    .card:hover .play{
+        bottom: 90px;
+        right: 14px;
+    }
+}

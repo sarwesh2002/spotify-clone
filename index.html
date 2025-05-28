@@ -1,17 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify Clone</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav>
-       <img src="images/logo.svg" alt="">
-       <img src="images/home.svg" alt="">
-       <input type="text" name="" id="" placeholder="What do you want to play?">
-    </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+    <main class="container">
+      <div class="left">
+        <nav class="home">
+          <ul>
+              <li  class="nav-top">
+                <img class="logo" src="img/logo.svg" alt="logo" />
+                <img class="close-hidden" src="img/close.svg" alt="">
+              </li>
+            <li><img src="img/home.svg" alt="home" />Home</li>
+            <li>
+              <img class="search-img" src="img/search.svg" alt="search" />
+              <span class="search-text">Search</span>
+            </li>
+          </ul>
+        </nav>
+        <section class="library">
+          <header class="library-head">
+            <span class="playlist-img-span">
+              <img src="img/playlist.svg" alt="playlist" /> Your Library
+            </span>
+            <span class="cross-img-span">
+              <img src="img/cross.svg" alt="cross" />
+            </span>
+        </header>
+          <section class="library-content">
+            <div class="box">
+              <h4>Create your first playlist</h4>
+              <p>It's easy, we'll help you</p>
+              <button class="button">Create playlist</button>
+            </div>
+            <div class="box">
+              <h4>Let's find some podcasts to follow</h4>
+              <p>We'll keep you updated on new episodes</p>
+              <button class="button">Browse podcasts</button>
+            </div>
+        </section>
+        </section>
+        <footer class="left-size-footer">
+          <div class="first">
+            <a href="#">Legal</a>
+            <a href="#">Safety&PrivacyCenter</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookies</a>
+          </div>
+          <div class="second">
+            <a href="#">About Ads</a>
+            <a href="#">Accessibility</a>
+          </div>
+          <div class="third">
+            <a href="#">Cookies</a>
+          </div>
+          <div class="left-footer-button">
+            <button>
+              <img src="img/globe.svg" alt="globe">
+               English
+              </button>
+          </div>
+        </footer>
+      </div>
+      <div class="right">
+        <header class="navbar">
+          <div class="nav-svg">
+            <img class="hidden hamburger" src="img/hamburger.svg" alt="">
+            <svg
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                stroke="#ffffff"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <svg
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                stroke="#ffffff"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+          </div>
+          <div class="nav-buttons">
+            <button class="sign-button">Sign up</button>
+            <button class="log-button button">Log in</button>
+          </div>
+        </header>
+        <section class="main">
+          <div class="main1">
+            <div class="main-name">
+              <h1>Spotify Playlists</h1>
+               <button>Show all</button>
+            </div>
+            <!-- container1 -->
+            <section class="card-container">
+              <article class="card card1" data-audio="songs/brain-implant-cyberpunk-sci-fi-trailer-action-intro-330416.mp3">
+                <div class="play">
+                  <img src="img/play.svg" alt="play">
+                </div>
+                <img src="img/img 1.jpg" alt="Album Photo">
+                <h2>Brain Implant (Cyberpunk Sci-Fi Trailer Action Intro)</h2>
+                <p>
+                  <a href="#">soundbay</a>
+                </p>
+            </article>
+              <article class="card card2" data-audio="songs/gorila-315977.mp3">
+               <div class="play">
+                  <img src="img/play.svg" alt="play">
+                </div>
+                <img src="img/img 2.jpg" alt="Album Photo">
+                <h2>Gorila</h2>
+                <p>
+                  <a href="#">Alex_MakeMusic</a>
+                </p>
+              </article>
+              <article class="card card3" data-audio="songs/experimental-cinematic-hip-hop-315904.mp3">
+                <div class="play">
+                  <img src="img/play.svg" alt="play">
+                </div>
+                <img src="img/img 3.jpg" alt="Album Photo">
+                <h2>Experimental Cinematic Hip-Hop</h2>
+                <p>
+                  <a href="#">Rockot</a>
+                </p>
+              </article>
+              <article class="card card4" data-audio="songs/dont-talk-315229.mp3">
+                <div class="play">
+                  <img src="img/play.svg" alt="play">
+                </div>
+                <img src="img/img 4.jpg" alt="Album Photo">
+                <h2>Don`t Talk</h2>
+                <p>
+                <a href="#">Cosmonkey</a> 
+                </p>
+              </article>
+              <article class="card card5" data-audio="songs/gardens-stylish-chill-303261.mp3">
+                <div class="play">
+                  <img src="img/play.svg" alt="play">
+                </div>
+                <img src="img/img 5.jpg" alt="Album Photo">
+                <h2>Gardens - Stylish Chill</h2>
+                <p>
+                  <a href="#">penguinmusic</a>
+                </p>
+              </article>
+              <article class="card card6" data-audio="songs/kugelsicher-by-tremoxbeatz-302838.mp3">
+                <div class="play">
+                  <img src="img/play.svg" alt="play">
+                </div>
+                <img src="img/img 6.jpg" alt="Album Photo">
+                <h2>Kugelsicher by TremoxBeatz</h2>
+                <p><a href="#">TremoxBeatz</a></p>
+              </article>
+            </section>
+            <!-- container 2 -->
+            <section class="card-container2">
+              <article class="card card7" data-audio="songs/soulsweeper-252499.mp3 ">
+                <div class="play">
+                  <img src="img/play.svg" alt="play">
+                </div>
+                <img src="img/img 7.jpg" alt="Album Photo">
+                <h2>Soulsweeperh2>
+                <p>
+                  <a href="#">ItsWatR</a>
+                </p>
+              </article>
+              <article class="card card8" data-audio="songs/tell-me-the-truth-260010.mp3">
+                <div class="play">
+                  <img src="img/play.svg" alt="play">
+                </div>
+                <img src="img/img 8.jpg" alt="Album Photo">
+                <h2>Tell Me The Truth</h2>
+                <p>
+                  <a href="#">Denys_Brodovskyi</a>
+                </p>
+              </article>
+              <article class="card card9" data-audio="songs/lost-in-dreams-abstract-chill-downtempo-cinematic-future-beats-270241.mp3">
+                <div class="play">
+                  <img src="img/play.svg" alt="play">
+                </div>
+                <img src="img/img 9.jpg" alt="Album Photo">
+                <h2>Lost in Dreams (abstract chil cinematic  beats)</h2>
+                <p>
+                  <a href="#">Kulakovka</a>
+                </p>
+              </article>
+              <article class="card card10" data-audio="songs/alone-296348.mp3">
+                <div class="play">
+                  <img src="img/play.svg" alt="play">
+                </div>
+                <img src="img/img 10.jpg" alt="Album Photo">
+                <h2>Alone</h2>
+                <p>
+                <a href="#">BoDleasons</a> 
+                </p>
+              </article>
+              <article class="card card11" data-audio="songs/vlog-music-beat-trailer-showreel-promo-background-intro-theme-274290.mp3">
+                <div class="play">
+                  <img src="img/play.svg" alt="play">
+                </div>
+                <img src="img/img 11.jpg" alt="Album Photo">
+                <h2>Vlog Music (Beat Trailer Showreel Theme)</h2>
+                <p>
+                  <a href="#">MFCC</a>
+                </p>
+              </article>
+              <article class="card card12" data-audio="songs/spinning-head-271171.mp3">
+                <div class="play">
+                  <img src="img/play.svg" alt="play">
+                </div>
+                <img src="img/img 12.jpg" alt="Album Photo">
+                <h2>Spinning Head</h2>
+                <p><a href="#">Gvidon</a></p>
+              </article>
+            </section>
+          </div>
+          <div class="main-sec-footer">
+            <div class="firstPlace">
+              <a class="footer-first-place" href="#">Company</a>
+              <div>
+                <a href="#">About</a>
+                <a href="#">Jobs</a>
+              </div>
+              <a href="#">For the Record</a>
+            </div>
+            <div class="secondPlace">
+             <a class="footer-first-place" href="#">Communities</a>
+              <div>
+                <a href="#">For Artists</a>
+                <a href="#">Developers</a>
+              </div>
+              <div>
+                <a href="#">Advertising</a>
+                <a href="#">Investors</a>
+              </div>
+              <a href="#">Vendors</a>
+            </div>
+            <div class="thirdPlace">
+              <a class="footer-first-place" href="#">Usefull links</a>
+              <a href="#">Support</a>
+              <a href="#">Free Mobile App</a>
+            </div>
+            <div class="fourthPlace">
+              <a class="footer-first-place" href="#">Spotify Plans</a>
+              <a href="#">Premium Individual</a>
+              <a href="#">Premium Duo</a>
+              <a href="#">Premium Family</a>
+              <a href="#">Premium Student</a>
+              <a href="#">Spotify Free</a>
+            </div>
+            <div class="fifthPlace">
+              <span>
+                <img src="img/insta.svg" alt="insta">
+              </span>
+              <span>
+                <img src="img/twitter.svg" alt="twitter">
+              </span>
+              <span>
+                <img src="img/faceboob.svg" alt="facebook">
+              </span>
+            </div>
+          </div>
+          <div >
+            <hr class="line">
+          </div>
+          <footer>
+            <p>&copy; 2025 Spotify AB</p>
+          </footer>
+        </section>
+        <div class="playbar">
+        <div class="song-details"></div>
+            <div class="song-button">
+              <img class="pre-song" src="img/prevsong.svg" alt="">
+              <img class="play-img" src="img/play.svg" alt="">
+              <img class="next-song" src="img/nextsong.svg" alt="">
+            </div>
+          <div class="right-side-of-playbar">
+            <div class="song-time">
+              00:00/00:00
+            </div>
+            <div class="volume">
+              <img class="volume-img" src="img/volume.svg" alt="">
+              <div class="range">
+                <input type="range" name="" id="volumeRange" min="0" max="1" step="0.01" value="1" placeholder="volume">
+              </div>
+            </div>
+          </div>
+          <div class="seekbar" id="seekbar">
+            <div class="circle" id="circle"></div>
+          </div>
+        </div>
+        
+      </div>
+    </main>
+    <audio id="audioPlayer"></audio>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
