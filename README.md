@@ -23,11 +23,11 @@ A responsive front-end clone of the Spotify homepage built using **HTML**, **CSS
 
 ### 💻 Desktop View
 
-![Desktop Screenshot](./screenshots/desktop.png)
+![Desktop Screenshot](./screenshots/Desktop.png)
 
 ### 📱 Mobile View
 
-![Mobile Screenshot](./screenshots/mobile.png)
+![Mobile Screenshot](./screenshots/Mobile.png)
 
 ---
 
