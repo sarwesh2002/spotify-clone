@@ -6,7 +6,7 @@ A responsive front-end clone of the Spotify homepage built using **HTML**, **CSS
 
 ## 🔗 Live Demo
 
-👉 [View Project Live](https://sarwesh2002.github.io/spotify-clone/)
+👉 [View Project Live](https://spotify-clone-black-eight.vercel.app/)
 
 ---
 
