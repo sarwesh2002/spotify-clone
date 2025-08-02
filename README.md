@@ -6,7 +6,7 @@ A responsive front-end clone of the Spotify homepage built using **HTML**, **CSS
 
 ## 🔗 Live Demo
 
-👉 [View Project Live](https://spotify-clone-black-eight.vercel.app/)
+👉 [View Project Live](https://streamify-clone-black-eight.vercel.app/)
 
 ---
 
@@ -23,11 +23,11 @@ A responsive front-end clone of the Spotify homepage built using **HTML**, **CSS
 
 ### 💻 Desktop View
 
-![Desktop Screenshot](./screenshots/Desktop.png)
+![Desktop Screenshot](./screenshots/desktop.png)
 
 ### 📱 Mobile View
 
-![Mobile Screenshot](./screenshots/Mobile.png)
+![Mobile Screenshot](./screenshots/mobile.png)
 
 ---
 
