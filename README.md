@@ -1,6 +1,6 @@
-# 🎧 Spotify Clone
+# 🎧 Streamify – Music Streaming App
 
-A responsive front-end clone of the Spotify homepage built using **HTML**, **CSS**, and **JavaScript**. This project demonstrates my ability to recreate real-world user interfaces with clean layout, interactive elements, and mobile responsiveness.
+A responsive front-end inspired by the Spotify homepage built using **HTML**, **CSS**, and **JavaScript**. This project demonstrates my ability to recreate real-world user interfaces with clean layout, interactive elements, and mobile responsiveness.
 
 ---
 
@@ -35,4 +35,4 @@ A responsive front-end clone of the Spotify homepage built using **HTML**, **CSS
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sarwesh2002/spotify-clone.git
+   git clone https://github.com/sarwesh2002/streamify-ui.git
