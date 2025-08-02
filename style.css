@@ -765,3 +765,15 @@ footer p {
     color: #c48a45;
     cursor: pointer;
 }
+
+
+.logo-work{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-work p:first-of-type{
+    font-size: 1.2rem;
+}

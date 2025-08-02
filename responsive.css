@@ -13,6 +13,14 @@
         transition: left 0.3s ease-in-out !important;
     }
 
+    .logo-work{
+        gap: 0.5rem;
+    }
+
+    .logo-work p:first-of-type{
+        font-size: 12px;
+    }
+
 
 
     .home ul li {
@@ -398,6 +406,14 @@
         padding-right: 0;
     }
 
+     .logo-work{
+        gap: 0.5rem;
+    }
+
+    .logo-work p:first-of-type{
+        font-size: 12px;
+    }
+
 
 }
 
@@ -441,6 +457,15 @@
     .left-footer-button img {
         width: 14px;
         height: 14px;
+ 
+    }
+
+     .logo-work{
+        gap: 0.5rem;
+    }
+
+    .logo-work p:first-of-type{
+        font-size: 12px;
     }
 }
 
@@ -734,6 +759,14 @@
 
     .card:hover .play {
         bottom: 124px;
+    }
+
+     .logo-work{
+        gap: 0.5rem;
+    }
+
+    .logo-work p:first-of-type{
+        font-size: 12px;
     }
 
 }
